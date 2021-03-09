@@ -1,2 +1,1 @@
-# LLA
-LLA: Loss-aware Label Assignment for Dense Pedestrian Detection
+# LLA: Loss-aware Label Assignment for Dense Pedestrian Detection
