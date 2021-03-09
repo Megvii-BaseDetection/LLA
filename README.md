@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/Megvii-BaseDetection/DeFCN)
 
-This project provides an implementation for "[End-to-End Object Detection with Fully Convolutional Network](https://arxiv.org/abs/2012.03544)" on PyTorch.
+This project provides an implementation for "[LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307)" on PyTorch.
 
 Experiments in the paper were conducted on the internal framework, thus we reimplement them on [cvpods](https://github.com/Megvii-BaseDetection/cvpods) and report details as below.
 
@@ -30,9 +30,8 @@ python3 setup.py build develop
 
 * prepare datasets
 ```shell
-cd /path/to/cvpods
-cd datasets
-ln -s /path/to/your/coco/dataset coco
+cd /path/to/cvpods/datasets
+ln -s /path/to/your/crowdhuman/dataset crowdhuman
 ```
 
 * Train & Test
@@ -111,11 +110,11 @@ This repo is released under the Apache 2.0 license. Please see the LICENSE file 
 ## Citing
 If you use this work in your research or wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```
-@article{wang2020end,
-  title   =  {End-to-End Object Detection with Fully Convolutional Network},
-  author  =  {Wang, Jianfeng and Song, Lin and Li, Zeming and Sun, Hongbin and Sun, Jian and Zheng, Nanning},
-  journal =  {arXiv preprint arXiv:2012.03544},
-  year    =  {2020}
+@article{ge2021lla,
+  title={LLA: Loss-aware Label Assignment for Dense Pedestrian Detection},
+  author={Ge, Zheng and Wang, Jianfeng and Huang, Xin and Liu, Songtao and Yoshie, Osamu},
+  journal={arXiv preprint arXiv:2101.04307},
+  year={2021}
 }
 ```
 
