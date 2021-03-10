@@ -56,9 +56,11 @@ pods_train --num-gpus 8 --num-machines N --machine-rank 0/1/.../N-1 --dist-url "
 
 ## Results on CrowdHuman val set
 
-| model | Backbone | lr sched. | IoU Branch | MR | AP50 |  Recall | download |
-|:------| :----:     | :----: |:---:| :---:| :---:| :---: | :--------: |
-|   LLA.FCOS | Res50 | 30k       | Yes | 47.5    | 88.2    | 94.4  | TODO |
+| model | Backbone | lr sched. | Aux Branch | MR | AP50 |  Recall | download |
+|:------| :----:   | :----: |:---:| :---:| :---:| :---: | :--------: |
+|  FCOS | Res50   | 30k       | CenterNess | -     | -       | -    | TODO |
+| [Faster R-CNN](https://github.com/Megvii-BaseDetection/cvpods/tree/master/playground/detection/crowdhuman/rcnn/faster_rcnn.res50.fpn.crowdhuman.800size.1x) | Res50  | Res50 | 30k       |  -         |       | -       | -    | TODO |
+|LLA.FCOS | Res50 | 30k       | IoU        | 47.5  | 88.2    | 94.4 | TODO |
 
 ## Acknowledgement
 This repo is developed based on cvpods. Please check [cvpods](https://github.com/Megvii-BaseDetection/cvpods) for more details and features.
