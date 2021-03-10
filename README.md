@@ -1,6 +1,6 @@
 # LLA: Loss-aware Label Assignment for Dense Pedestrian Detection
 
-![GitHub](https://img.shields.io/github/license/Megvii-BaseDetection/LLA)
+![GitHub](https://img.shields.io/github/license/Megvii-BaseDetection/DeFCN)
 
 This project provides an implementation for "[LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307)" on PyTorch.
 
