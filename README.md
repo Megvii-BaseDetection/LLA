@@ -6,7 +6,7 @@ This project provides an implementation for "[LLA: Loss-aware Label Assignment f
 
 Experiments in the paper were conducted on the internal framework, thus we reimplement them on [cvpods](https://github.com/Megvii-BaseDetection/cvpods) and report details as below.
 
-![](./result.png)
+<img src="./result.png" width="800" height="400">
 
 ## Requirements
 * [cvpods](https://github.com/Megvii-BaseDetection/cvpods)
