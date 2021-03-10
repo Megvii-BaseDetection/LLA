@@ -53,9 +53,9 @@ pods_train --num-gpus 8 --num-machines N --machine-rank 0/1/.../N-1 --dist-url "
 
 ```
 
-| model |  lr sched. | IoU Branch | MR | AP50 |  Recall | download           |
-|:------| :----:     |:---:| :---:| :---:| :---: | :--------: |
-|   LLA | 2.5x       | Yes | 47.5    | 88.2    | 94.4  |         aaa       |
+| model | Backbone | lr sched. | IoU Branch | MR | AP50 |  Recall | download           |
+|:------| :----:     | :----: |:---:| :---:| :---:| :---: | :--------: |
+|   LLA.FCOS | ResNet-50 | 2.5x       | Yes | 47.5    | 88.2    | 94.4  |         aaa       |
 ## Results on COCO2017 val set
 
 | model | assignment | with NMS | lr sched. | mAP | mAR | download |
