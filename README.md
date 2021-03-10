@@ -60,7 +60,7 @@ pods_train --num-gpus 8 --num-machines N --machine-rank 0/1/.../N-1 --dist-url "
 |:------| :----:   | :----: |:---:| :---:| :---:| :---: | :--------: |
 |  FCOS | Res50   | 30k       | CenterNess | -     | -       | -    | Waiting... |
 | [Faster R-CNN](https://github.com/Megvii-BaseDetection/cvpods/tree/master/playground/detection/crowdhuman/rcnn/faster_rcnn.res50.fpn.crowdhuman.800size.1x) | Res50  | 30k | -       |  -         |   -    | -       |  Waiting...    |
-|LLA.FCOS | Res50 | 30k       | IoU        | 47.5  | 88.2    | 94.4 | Waiting... |
+|LLA.FCOS | Res50 | 30k       | IoU        | 47.5  | 88.2    | 94.4 | [weights](https://megvii-my.sharepoint.cn/:u:/g/personal/gezheng_megvii_com/EdVJdAm0RINGnS5LoroQ2eUBg-Gwcaf7sbSl7eu7QX35rw) |
 
 ## Acknowledgement
 This repo is developed based on cvpods. Please check [cvpods](https://github.com/Megvii-BaseDetection/cvpods) for more details and features.
