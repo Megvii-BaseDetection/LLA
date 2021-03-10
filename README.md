@@ -36,7 +36,7 @@ ln -s /path/to/your/crowdhuman/dataset crowdhuman
 
 * Train & Test
 ```shell
-git clone https://github.com/Megvii-BaseDetection/DeFCN.git
+git clone https://github.com/Megvii-BaseDetection/LLA.git
 cd DeFCN/playground/detection/coco/poto.res50.fpn.coco.800size.3x_ms  # for example
 
 # Train
