@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/Megvii-BaseDetection/DeFCN)
 
-This project provides an implementation for "[LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307)" on PyTorch.
+This project provides an implementation for "[LLA: Loss-aware Label Assignment for Dense Pedestrian Detection](https://arxiv.org/abs/2101.04307)" on PyTorch. **LLA is the first one-stage detector that surpass two-stage detector (Faster R-CNN) on CrowdHuman dataset**.
 
 Experiments in the paper were conducted on the internal framework, thus we reimplement them on [cvpods](https://github.com/Megvii-BaseDetection/cvpods) and report details as below.
 
@@ -80,6 +80,3 @@ If you use this work in your research or wish to refer to the baseline results p
   year={2021}
 }
 ```
-
-## Contributing to the project
-Any pull requests or issues about the implementation are welcome. If you have any issue about the library (e.g. installation, environments), please refer to [cvpods](https://github.com/Megvii-BaseDetection/cvpods).
