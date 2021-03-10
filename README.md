@@ -57,7 +57,7 @@ pods_train --num-gpus 8 --num-machines N --machine-rank 0/1/.../N-1 --dist-url "
 
 | model | Backbone | lr sched. | IoU Branch | MR | AP50 |  Recall | download |
 |:------| :----:     | :----: |:---:| :---:| :---:| :---: | :--------: |
-|   LLA.FCOS | Res-50 | 2.5x       | Yes | 47.5    | 88.2    | 94.4  | TODO |
+|   LLA.FCOS | Res50 | 2.5x       | Yes | 47.5    | 88.2    | 94.4  | TODO |
 
 ## Acknowledgement
 This repo is developed based on cvpods. Please check [cvpods](https://github.com/Megvii-BaseDetection/cvpods) for more details and features.
