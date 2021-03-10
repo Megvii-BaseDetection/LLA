@@ -56,7 +56,7 @@ pods_train --num-gpus 8 --num-machines N --machine-rank 0/1/.../N-1 --dist-url "
 
 ## Results on CrowdHuman val set
 
-| model | Backbone | lr sched. | Aux Branch | MR | AP50 |  Recall | download |
+| Model | Backbone | LR Sched. | Aux. Branch | MR | AP50 |  Recall | Download |
 |:------| :----:   | :----: |:---:| :---:| :---:| :---: | :--------: |
 |  FCOS | Res50   | 30k       | CenterNess | -     | -       | -    | weights |
 |  ATSS | Res50   | 30k       | CenterNess | -     | -       | -    | weights |
