@@ -57,7 +57,7 @@ _config_dict = dict(
         )
     ),
     OUTPUT_DIR=osp.join(
-        '/data/Outputs/model_logs/cvpack2_playground',
+        '/data/Outputs/model_logs/cvpods_playground',
         osp.split(osp.realpath(__file__))[0].split("playground/")[-1]
     ),
 )
