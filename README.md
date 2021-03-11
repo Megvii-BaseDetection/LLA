@@ -10,7 +10,6 @@ This project provides an implementation for "[LLA: Loss-aware Label Assignment f
 
 ## Requirements
 * [cvpods](https://github.com/Megvii-BaseDetection/cvpods)
-* scipy >= 1.5.4
 
 ## Get Started
 
