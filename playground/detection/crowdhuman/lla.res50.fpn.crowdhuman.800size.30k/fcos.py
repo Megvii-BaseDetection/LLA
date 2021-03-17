@@ -320,9 +320,9 @@ class FCOS(nn.Module):
             losses_box_reg.append(anchor_loss_delta.sum())
             losses_iou.append(anchor_loss_iou.sum())
 
-            if self.norm_sync:
-                dist.all_reduce(num_fg)
-                num_fg = num_fg.float() / dist.get_world_size()
+        if self.norm_sync:
+            dist.all_reduce(num_fg)
+            num_fg = num_fg.float() / dist.get_world_size()
 
         return {
             'loss_cls': torch.stack(losses_cls).sum() / num_fg,
